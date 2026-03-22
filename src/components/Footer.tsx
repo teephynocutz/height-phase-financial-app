@@ -45,7 +45,7 @@ export default function Footer() {
             <ul className="space-y-3 text-sm text-primary-foreground/60">
               <li>info@heightphase.com</li>
               <li>+1 (800) 742-9100</li>
-              <li>New York, NY</li>
+              <li>207 W Jefferson Street - Illinois House</li>
             </ul>
           </div>
         </div>
