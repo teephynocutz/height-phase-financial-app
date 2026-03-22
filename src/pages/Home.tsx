@@ -40,7 +40,7 @@ export default function Home() {
     <Layout>
       {/* Hero */}
       <section className="relative min-h-[90vh] flex items-center overflow-hidden">
-        <div className="absolute inset-0">
+        <div className="fixed inset-0 -z-10">
           <img
             src={heroImage}
             alt="Financial district skyline at golden hour"
@@ -74,7 +74,7 @@ export default function Home() {
       </section>
 
       {/* Stats */}
-      <section className="bg-primary">
+      <section className="bg-primary/60">
         <div ref={statsRef} className="section-padding max-w-7xl mx-auto py-14 md:py-16">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-4">
             {stats.map((s, i) => (
@@ -88,11 +88,11 @@ export default function Home() {
       </section>
 
       {/* Services Preview */}
-      <section className="py-20 md:py-28 lg:py-32">
+      <section className="py-20 bg-primary/60 md:py-28 lg:py-32">
         <div ref={servicesRef} className="section-padding max-w-7xl mx-auto">
           <div className="max-w-xl mb-14 md:mb-16">
             <p className="reveal text-gold font-semibold text-sm uppercase tracking-[0.2em] mb-3">What We Do</p>
-            <h2 className="reveal stagger-1 font-display text-3xl sm:text-4xl lg:text-5xl leading-[1.1] mb-4">
+            <h2 className="reveal text-gold/60 stagger-1 font-display text-3xl sm:text-4xl lg:text-5xl leading-[1.1] mb-4">
               Financial services that move you forward
             </h2>
             <p className="reveal stagger-2 text-muted-foreground text-lg leading-relaxed">
@@ -126,7 +126,7 @@ export default function Home() {
       </section>
 
       {/* CTA */}
-      <section className="relative overflow-hidden">
+      <section className="relative bg-black/60 overflow-hidden">
         <div className="absolute inset-0 bg-charcoal" />
         <div ref={ctaRef} className="relative section-padding max-w-7xl mx-auto py-20 md:py-28 text-center">
           <h2 className="reveal font-display text-3xl sm:text-4xl lg:text-5xl text-primary-foreground leading-[1.1] mb-5">
