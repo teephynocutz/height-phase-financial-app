@@ -52,7 +52,7 @@ export default function Footer() {
 
         <div className="mt-14 pt-8 border-t border-primary-foreground/10 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-xs text-primary-foreground/40">
-            © {new Date().getFullYear()} Heightphase Advisory. All rights reserved.
+            © {new Date().getFullYear()} AltrotechAI. All rights reserved.
           </p>
           <div className="flex gap-6 text-xs text-primary-foreground/40">
             <span className="hover:text-gold transition-colors cursor-pointer">Privacy</span>
