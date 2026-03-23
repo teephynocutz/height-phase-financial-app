@@ -7,10 +7,11 @@ import { Mail, Phone, MapPin, Send } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import Layout from "@/components/Layout";
 
+          
 const contactInfo = [
   { icon: Mail, label: "Email", value: "info@heightphase.com" },
-  { icon: Phone, label: "Phone", value: "+1 (800) 742-9100" },
-  { icon: MapPin, label: "Office", value: "350 Fifth Avenue, Suite 4200\nNew York, NY 10118" },
+  { icon: Phone, label: "Phone", value: "+1 (608) 844-4141" },
+  { icon: MapPin, label: "Office", value: "207 W Jefferson Street - Illinois House" },
 ];
 
 export default function Contact() {

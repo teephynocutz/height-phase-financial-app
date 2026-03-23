@@ -44,7 +44,7 @@ export default function Footer() {
             <h4 className="font-semibold text-sm uppercase tracking-wider text-gold mb-4">Contact</h4>
             <ul className="space-y-3 text-sm text-primary-foreground/60">
               <li>info@heightphase.com</li>
-              <li>+1 (800) 742-9100</li>
+              <li>+1 (608) 844-4141</li>
               <li>207 W Jefferson Street - Illinois House</li>
             </ul>
           </div>

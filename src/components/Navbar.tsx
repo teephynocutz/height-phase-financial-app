@@ -40,10 +40,10 @@ export default function Navbar() {
         </ul>
 
         <Link
-          to="/contact"
+          to="/quote"
           className="hidden md:inline-flex h-10 px-6 items-center justify-center rounded-md bg-gold text-accent-foreground text-sm font-semibold shadow-md shadow-gold/20 hover:bg-gold/90 transition-all duration-200 active:scale-[0.97]"
         >
-          Get in Touch
+          NEED A LOAN?
         </Link>
 
         {/* Mobile toggle */}
