@@ -12,6 +12,7 @@ const contactInfo = [
   { icon: Mail, label: "Email", value: "info@heightphase.com" },
   { icon: Phone, label: "Phone", value: "+1 (608) 844-4141" },
   { icon: MapPin, label: "Office", value: "207 W Jefferson Street - Illinois House" },
+  { icon: MapPin, label: "Head Office", value: "La Moraleja , Alcobendas Madrid Spain 28109"}
 ];
 
 export default function Contact() {

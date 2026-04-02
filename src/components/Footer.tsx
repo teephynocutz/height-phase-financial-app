@@ -46,6 +46,11 @@ export default function Footer() {
               <li>info@heightphase.com</li>
               <li>+1 (608) 844-4141</li>
               <li>207 W Jefferson Street - Illinois House</li>
+
+              {/* Head Office */}
+              <li className="pt-2 text-primary-foreground/80 font-medium">Head Office:</li>
+              <li>La Moraleja  Alcobendas</li>
+              <li>Madrid Spain 28109</li>
             </ul>
           </div>
         </div>
